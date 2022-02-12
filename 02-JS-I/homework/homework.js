@@ -1,10 +1,9 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
-const henryReadingTime = require("henry-reading-time");
-
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "strong";
 
+const nuevaString = "strong";
+console.log(nuevaString)
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 4;
