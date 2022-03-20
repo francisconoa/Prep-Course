@@ -1,0 +1,16 @@
+function calcular(operacion, num1, num2) {
+	return operacion(num1, num2); // Acá falla con el array, porque no le podés hacer array()
+}
+
+function suma(num1, num2) {
+  return num1 + num2;
+}
+
+function resta(num1, num2) {
+  return num1 - num2;
+}
+
+
+console.log('Ejemplo 1: ', calcular(suma, 2, 2)); // === 4
+console.log('Ejemplo 2: ', calcular(resta, 5, 3)); // === 2
+console.log('Ejemplo 3: ', calcular(suma, 2, 3, 4)); // === 5, porque el ultimo parametro no esta definido entonces
